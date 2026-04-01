@@ -1,0 +1,17 @@
+Kāds varētu būt projekta nosaukums?
+
+
+Ko projekts dara vienā teikumā?
+
+
+Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
+
+
+Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
+
+
+Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
+
+
+Kādas ir 3–5 galvenās funkcijas (must-have)?
+
