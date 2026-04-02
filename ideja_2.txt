@@ -1,17 +1,19 @@
 Kāds varētu būt projekta nosaukums?
-
+Survive
 
 Ko projekts dara vienā teikumā?
-
+Interaktive konsole game where you ae survive in the forest
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+how to spent time.
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+studenti un skolneki
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+konsolē
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1)chois the choises hot to doing future
+2)end of the game
+3)start on the game
