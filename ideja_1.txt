@@ -1,17 +1,19 @@
 Kāds varētu būt projekta nosaukums?
-
+WorldWeather
 
 Ko projekts dara vienā teikumā?
-
+See the weather in every city.
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+if you dont know the weather in other city you will see it
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+cilveki kuri very more braukt in other city
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Telegram bots
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1)see the weather
+2)see the time
+3)see the weather prognoz
