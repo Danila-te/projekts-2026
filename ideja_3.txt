@@ -1,17 +1,19 @@
 Kāds varētu būt projekta nosaukums?
-
+SitySerch
 
 Ko projekts dara vienā teikumā?
-
+Serch sity: people, contry,,,
 
 Kādu problēmu šis projekts risina? (Vai tas ir rīks produktivitātei, izklaidei, datu analīze vai kas cits?)
-
+if you dont know any city you will serch this in the sercher
 
 Kas būs šī rīka galvenais lietotājs? (Piemēram, paši studenti, uzņēmēji, spēlētāji vai datu pētnieki)
-
+studenti, skolataji
 
 Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkāršā GUI)?
-
+Telegram bots
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-
+1)serch all city in concret country
+2)serch city fot the burt
+3)serch all city with one name
