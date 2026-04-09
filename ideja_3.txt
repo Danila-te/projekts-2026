@@ -26,6 +26,6 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 5)Lietotajs var see people skaits in concret city
 
 3 nefunkcionālās prasības:
-1)SitySerch reakcijas atrums atrak neka 3 sekunde.
-2)SitySerch 
-3) 
+1)SitySerch reakcijas atrums atrak neka 3 sekunde
+2)SitySerch rakstit "City nav" if doot find city fith that name
+3)SitySerch rakstit "People nav" if dont have people in the city
