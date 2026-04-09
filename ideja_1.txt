@@ -17,3 +17,16 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 1)see the weather
 2)see the time
 3)see the weather prognoz
+4)see the temperature
+
+5 funkcionālās prasības:
+1)Lietotajs var see the weather in concret city
+2)Lietotajs var see time in concret city
+3)Lietotajs var see all city list
+4)Lietotajs var see weather prognoz in concet city
+5)Lietotajs var see temperature in concret city
+
+3 nefunkcionālās prasības:
+1)Telegram bot reakcijas atrums mazak neka 5 sekunde.
+2)Telegram bot neko naradi ja city dont chois.
+3)Telegram bot paradit one time weather, city name, temperature.
