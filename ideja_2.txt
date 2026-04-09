@@ -14,6 +14,18 @@ Kā lietotājs mijiedarbosies ar programmu (konsolē, Telegram bots, vienkārš�
 konsolē
 
 Kādas ir 3–5 galvenās funkcijas (must-have)?
-1)chois the choises hot to doing future
+1)chois the choises hov to doing future
 2)end of the game
 3)start on the game
+
+5 funkcionālās prasības:
+1)Lietotajs var chois the choises hov to doing future
+2)Lietotajs var see how long he survive
+3)Lietotajs var start the game
+4)Lietotajs var end the game
+5)Lietotajs var see what hi have
+
+3 nefunkcionālās prasības:
+1)Survive spele vell reiz chois if player dont doit any chois
+2)Survive spele start atrak neka 3 sekunde.
+3)Pec all chois was a 3 second kavejums. 
