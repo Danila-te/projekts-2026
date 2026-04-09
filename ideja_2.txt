@@ -27,5 +27,5 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 
 3 nefunkcionālās prasības:
 1)Survive spele vell reiz chois if player dont doit any chois
-2)Survive spele start atrak neka 3 sekunde.
-3)Pec all chois was a 3 second kavejums. 
+2)Survive spele start atrak neka 3 sekunde
+3)Pec all chois was a 3 second kavejums
