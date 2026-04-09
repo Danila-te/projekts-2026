@@ -17,3 +17,15 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 1)serch all city in concret country
 2)serch city fot the burt
 3)serch all city with one name
+
+5 funkcionālās prasības:
+1)Lietotajs var see city in concret country
+2)Lietotajs var see all city name
+3)Lietotajs var serch all city with one name
+4)Lietotajs var serch city fot the burt
+5)Lietotajs var see people skaits in concret city
+
+3 nefunkcionālās prasības:
+1)SitySerch reakcijas atrums atrak neka 3 sekunde.
+2)SitySerch 
+3) 
