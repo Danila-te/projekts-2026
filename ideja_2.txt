@@ -35,3 +35,10 @@ Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līm
 Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? - 2
 Vai šī programma atbilst visiem vērtēšanas kritērijiem? - 3
 Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? - 3
+
+1)https://textadventures.co.uk/
+  Priekšrocības - atra atuma, skiadra interfeisa, vairaki varianti.
+  Trūkumus - saite atrodas bauzera, reklama.
+2)https://itch.io/
+  Priekšrocības - atra atuma, skiadra interfeisa, vairaki varianti.
+  Trūkumus - saite atrodas bauzera, reklama.
