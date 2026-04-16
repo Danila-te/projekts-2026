@@ -23,7 +23,7 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 2)Lietotajs var see all city name
 3)Lietotajs var serch all city with one name
 4)Lietotajs var serch city fot the burt
-5)Lietotajs var see people skaits in concret city
+5)Var see QRcode on the all this infomation
 
 3 nefunkcionālās prasības:
 1)SitySerch reakcijas atrums atrak neka 3 sekunde
