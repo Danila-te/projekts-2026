@@ -24,7 +24,7 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 2)Lietotajs var see time in concret city
 3)Lietotajs var see all city list
 4)Lietotajs var see weather prognoz in concet city
-5)Izveido city QRcode
+5)Lietotajs var see tmpeature
 
 3 nefunkcionālās prasības:
 1)Telegram bot reakcijas atrums mazak neka 5 sekunde
@@ -34,5 +34,5 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 Cik ļoti mani aizrauj šī tēma? - 3
 Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līmenim? - 4
 Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? - 2
-Vai šī programma atbilst visiem vērtēšanas kritērijiem?
-Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam?
+Vai šī programma atbilst visiem vērtēšanas kritērijiem? - 4
+Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? - 4
