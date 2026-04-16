@@ -36,3 +36,10 @@ Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līm
 Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? - 2
 Vai šī programma atbilst visiem vērtēšanas kritērijiem? - 4
 Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? - 4
+
+Salīdzinat;
+1)https://meteofor.lv/
+  Priekšrocības - atra atuma, skiadra interfeisa, ilga prognoze laika
+  Trūkumus - saite atrodas bauzera, reklama.
+  
+
