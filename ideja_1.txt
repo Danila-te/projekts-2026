@@ -41,5 +41,7 @@ Salīdzinat;
 1)https://meteofor.lv/
   Priekšrocības - atra atuma, skiadra interfeisa, ilga prognoze laika
   Trūkumus - saite atrodas bauzera, reklama.
-  
+2)https://www.accuweather.com/
+  Priekšrocības - atra atuma, skiadra interfeisa, ilga prognoze laika
+  Trūkumus - saite atrodas bauzera, reklama.
 
