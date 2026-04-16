@@ -36,6 +36,7 @@ Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša i
 Vai šī programma atbilst visiem vērtēšanas kritērijiem? - 3
 Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? - 3
 
+Salīdzinat;
 1)https://textadventures.co.uk/
   Priekšrocības - atra atuma, skiadra interfeisa, vairaki varianti.
   Trūkumus - saite atrodas bauzera, reklama.
