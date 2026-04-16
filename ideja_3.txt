@@ -29,3 +29,9 @@ Kādas ir 3–5 galvenās funkcijas (must-have)?
 1)SitySerch reakcijas atrums atrak neka 3 sekunde
 2)SitySerch rakstit "City nav" if doot find city fith that name
 3)SitySerch rakstit "People nav" if dont have people in the city
+
+Cik ļoti mani aizrauj šī tēma? - 4
+Cik viegli ideja ir realizējama atbilstoši manam pašreizējam zināšanu līmenim? - 4
+Vai šī programma atrisina kādu reālu problēmu vai ir noderīga, saistoša ikdienā? - 2
+Vai šī programma atbilst visiem vērtēšanas kritērijiem? - 4
+Cik efektīgi un saprotami šo projektu varēs nodemonstrēt klasei un skolotājam? - 4
