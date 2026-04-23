@@ -10,6 +10,28 @@ def get_city_information(city):
         data = response.read().decode('utf-8')
 
     return json.loads(data)
+def display_city_information(city_info):
+    info = ""
+    if city_info:
+        if 'results' in city_info:
+            info += "City Information:"
+            for city_data in city_info['results']:
+                info += f"Name: {city_data['name']}"
+                info += f"Country: {city_data['country']}"
+                info += f"Country code: {city_data['country_code']}"
+                if 'population' in city_data and city_data['population'] > 0:
+                    info += f"Population: {city_data['population']}"
+                else:
+                    info += f"Population: nav"
+                info +=f"Timezone: {city_data['timezone']}"
+                info +=f"Latitude: {city_data['latitude']}"
+                info +=f"Longitude: {city_data['longitude']}"
+                info +="-----------------------"
+        else:
+            info += "City nav."
+    else:
+        info += "No city information available."
+    return 
 
 # izveido bota pieslēgumu Telegram
 app = ApplicationBuilder().token("8656940100:AAHQwa_l33QJtwlxViDZWqd6GlmeC3C6W8U").build()
@@ -20,9 +42,11 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                     "3)weather - sah weather in oet city\n")
 
     # komanda /hello
-async def hello(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(update.effective_user)
-    await update.message.reply_text(f'Hello {update.effective_user.first_name} {update.effective_user.last_name}')
+    city = get_city_information(update.message.text)
+    city_info = display_city_information(city)
+    await update.message.reply_text(city_info)
 
     # komanda /echo
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -36,7 +60,7 @@ async def qrcod(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 # savieno čata komandu ar funkciju
 app.add_handler(CommandHandler("start", start))
-app.add_handler(CommandHandler("hello", hello))
+app.add_handler(CommandHandler("search", search))
 app.add_handler(CommandHandler("echo", echo))
 app.add_handler(CommandHandler("qrcod", qrcod))
 app.run_polling(allowed_updates=Update.ALL_TYPES)
