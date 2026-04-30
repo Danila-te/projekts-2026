@@ -3,6 +3,11 @@ import json
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import qrcode
+
+
+
+
+
 def get_city_information(city):
     link = f"https://geocoding-api.open-meteo.com/v1/search?name={city}&count=3&language=en&format=json"
 
@@ -14,24 +19,24 @@ def display_city_information(city_info):
     info = ""
     if city_info:
         if 'results' in city_info:
-            info += "City Information:"
+            info += "City Information:\n"
             for city_data in city_info['results']:
-                info += f"Name: {city_data['name']}"
-                info += f"Country: {city_data['country']}"
-                info += f"Country code: {city_data['country_code']}"
+                info += f"Name: {city_data['name']}\n"
+                info += f"Country: {city_data['country']}\n"
+                info += f"Country code: {city_data['country_code']}\n"
                 if 'population' in city_data and city_data['population'] > 0:
-                    info += f"Population: {city_data['population']}"
+                    info += f"Population: {city_data['population']}\n"
                 else:
-                    info += f"Population: nav"
-                info +=f"Timezone: {city_data['timezone']}"
-                info +=f"Latitude: {city_data['latitude']}"
-                info +=f"Longitude: {city_data['longitude']}"
-                info +="-----------------------"
+                    info += f"Population: nav\n"
+                info +=f"Timezone: {city_data['timezone']}\n"
+                info +=f"Latitude: {city_data['latitude']}\n"
+                info +=f"Longitude: {city_data['longitude']}\n"
+                info +="-----------------------\n"
         else:
-            info += "City nav."
+            info += "City nav.\n"
     else:
-        info += "No city information available."
-    return 
+        info += "No city information available.\n"
+    return info
 
 # izveido bota pieslēgumu Telegram
 app = ApplicationBuilder().token("8656940100:AAHQwa_l33QJtwlxViDZWqd6GlmeC3C6W8U").build()
@@ -44,7 +49,8 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     # komanda /hello
 async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(update.effective_user)
-    city = get_city_information(update.message.text)
+    city = get_city_information(update.message.text[8:])
+    print(city)
     city_info = display_city_information(city)
     await update.message.reply_text(city_info)
 
@@ -53,8 +59,8 @@ async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text("I hear: " + update.message.text)
 
 async def qrcod(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Building QR code: " + update.message.text[8:])
-    img = qrcode.make(update.message.text[8:])
+    await update.message.reply_text("Building QR code: " + update.message.text)
+    img = qrcode.make(update.message.text)
     img.save('qr.png', scale=7)
     await update.message.reply_photo('qr.png')
 
