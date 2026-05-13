@@ -2,11 +2,6 @@ import urllib.request
 import json
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-import qrcode
-
-
-
-
 
 def get_city_information(city):
     link = f"https://geocoding-api.open-meteo.com/v1/search?name={city}&count=3&language=en&format=json"
@@ -38,15 +33,14 @@ def display_city_information(city_info):
         info += "No city information available.\n"
     return info
 
-# izveido bota pieslēgumu Telegram
 app = ApplicationBuilder().token("8656940100:AAHQwa_l33QJtwlxViDZWqd6GlmeC3C6W8U").build()
 
-# komanda /start
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Hello, i'am a CitySearch bot, this is all my funktion:\n""1)/search - search city by name.\n"
-                                    "3)weather - sah weather in oet city\n")
+    await update.message.reply_text("Sveiki, esmu CitySearch bot, tās ir visas manas funkcijas:\n"
+                                    "1)/start - atver dialoglodziņu\n"
+                                    "2)/search - meklē pilsētas pēc burtiem vai burtu kombinācijām.\n"
+                                    "3)/echo - pārbaudes, ko es varu dzirdēt\n")
 
-    # komanda /hello
 async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):
     print(update.effective_user)
     city = get_city_information(update.message.text[8:])
@@ -54,19 +48,10 @@ async def search(update: Update, context: ContextTypes.DEFAULT_TYPE):
     city_info = display_city_information(city)
     await update.message.reply_text(city_info)
 
-    # komanda /echo
 async def echo(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     await update.message.reply_text("I hear: " + update.message.text)
 
-async def qrcod(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text("Building QR code: " + update.message.text)
-    img = qrcode.make(update.message.text)
-    img.save('qr.png', scale=7)
-    await update.message.reply_photo('qr.png')
-
-# savieno čata komandu ar funkciju
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("search", search))
 app.add_handler(CommandHandler("echo", echo))
-app.add_handler(CommandHandler("qrcod", qrcod))
 app.run_polling(allowed_updates=Update.ALL_TYPES)
